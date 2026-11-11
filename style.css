@@ -1,0 +1,25 @@
+div{
+  width: 150px;
+  height: 150px;
+    background-color:pink;
+  border-radius: 50%;
+  position:relative;
+  top: 70px;
+  left: 300px;
+  animation-name:tica;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+}
+@keyframes tica{
+  0%{
+    background-color: blue;
+  }
+  50%{
+    left:500px;
+  }
+  100%{
+    background-color: orange;
+    top:20px;
+    left:0px; 
+  }
+}
